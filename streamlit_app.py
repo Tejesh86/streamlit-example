@@ -1,7 +1,7 @@
 import streamlit
 import pandas
 import requests
-streamlit.title('🥣 My snowflake bedge 2 practice');
+streamlit.title('🥣 My snowflake bedge 3 practice');
 streamlit.header('🥗 Snowflake');
 # streamlit.text('🐔 streamlit text');
 streamlit.text('🥑 trying to solve error');
