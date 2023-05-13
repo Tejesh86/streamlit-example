@@ -1,5 +1,6 @@
 import streamlit
 import pandas
+import requests
 streamlit.title('🥣 My snowflake bedge 2 practice');
 streamlit.header('🥗 Snowflake');
 # streamlit.text('🐔 streamlit text');
@@ -12,3 +13,6 @@ fruits_selected = streamlit.multiselect("Pick some fruits:", list(my_fruit_list.
 # display the table on the page
 fruits_to_show = my_fruit_list.loc[fruits_selected];
 streamlit.dataframe(fruits_to_show);
+
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon");
+streamlit.text(fruityvice_response)
