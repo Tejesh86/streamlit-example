@@ -1,6 +1,7 @@
 import streamlit
 import pandas
 import requests
+import snowflake-connector
 streamlit.title('🥣 My snowflake bedge 2 practice');
 streamlit.header('🥗 Snowflake');
 # streamlit.text('🐔 streamlit text');
